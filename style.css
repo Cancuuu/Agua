@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+body{
+
+    background-color: rgb(172, 214, 207);
+}
+
+.titulo{
+    font-family: Poppins;
+    background-color: rgb(172, 214, 207);
+    font-size: 35px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 0px 0px;
+}
+
+.navbar{
+    text-align: center;
+    text-decoration-style: none;
+
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.nav-item{
+    list-style-type: none;
+    display: inline-block;
+    padding:  10px 20px;
+    font-family: Poppins;
+    border-radius:  7px;
+    
+}
+
+.nav-item:hover{
+    background-color:  rgba(87, 122, 117, 0.74);
+    cursor: pointer;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.presentation{
+    width: 100%;
+    height: 100vh;
+}
+
+.presenbox{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#presentext{
+    font-family: Poppins;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#desc{
+    font-family: Poppins;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
